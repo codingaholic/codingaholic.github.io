@@ -9,3 +9,5 @@ url: "http://codingaholic.com"
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title
+
+paginate: 12

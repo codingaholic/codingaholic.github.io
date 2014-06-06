@@ -5,7 +5,7 @@ layout: default
 <div class="main section" id="main">
     <div class="widget Blog" id="Blog1">
         <!-- google_ad_section_start(name=default) -->
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 row-video-thm">
             <div class="post hentry thumbnail">
                 <div id="summary2751505168638470704"><div class="play-link"><a href="{{post.url}}"><img class="img-responsive" src="{{post.thumbUrl}}"><span class="play"><span class="button"></span></span></a></div></div>
@@ -19,5 +19,13 @@ layout: default
         </div>
         {% endfor %} 
     </div>
+    <nav id="pagenavi">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" class="prev">Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next</a>
+    {% endif %}
+</nav>
 </div>
 <!-- END Loop -->
