@@ -7,12 +7,93 @@
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Keynote with Dan North - Jackstones: the Journey to Mastery</title>
+        <title>Your Personal Brand - Blogging While Brown 2012 Tech Keynote</title>
         <description>
 </description>
-        <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/2014/06/03/Jackstones-the-Journey-to-Mastery</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/06/03/Jackstones-the-Journey-to-Mastery</guid>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/your-personal-brand-blogging-while-brown</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/your-personal-brand-blogging-while-brown</guid>
+      </item>
+    
+      <item>
+        <title>Zach Holman - How Github (No Longer) Works</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</guid>
+      </item>
+    
+      <item>
+        <title>Using ASP.NET SignalR... in anger</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Using-ASPNET-SignalR-in-anger</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Using-ASPNET-SignalR-in-anger</guid>
+      </item>
+    
+      <item>
+        <title>Paul Irish : 10 Things I Learned from the jQuery Source</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</guid>
+      </item>
+    
+      <item>
+        <title>Konstantin Haase - Sinatra in SIX lines - How to do crazy stuff with Ruby</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</guid>
+      </item>
+    
+      <item>
+        <title>HTTP caching for ponies and unicorns</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/HTTP-caching-for-ponies-and-unicorns</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/HTTP-caching-for-ponies-and-unicorns</guid>
+      </item>
+    
+      <item>
+        <title>Corey Haines - RubyConf AU 2013 Opening Keynote</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</guid>
+      </item>
+    
+      <item>
+        <title>Benjamin Smith - How I Architected My Big Rails App For Success</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</guid>
+      </item>
+    
+      <item>
+        <title>Ben Turner - Ansible - Your First Step Into Server Provisioning</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</guid>
+      </item>
+    
+      <item>
+        <title>Advanced Git</title>
+        <description>
+</description>
+        <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2014/06/04/Advanced-Git</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/04/Advanced-Git</guid>
       </item>
     
   </channel>
