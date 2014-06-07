@@ -3,29 +3,39 @@ layout: default
 ---
 
 <div class="main section" id="main">
-    <div class="widget Blog" id="Blog1">
-        <!-- google_ad_section_start(name=default) -->
-        {% for post in paginator.posts %}
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 row-video-thm">
-            <div class="post hentry thumbnail">
-                <div id="summary2751505168638470704"><div class="play-link"><a href="{{post.url}}"><img class="img-responsive" src="{{post.thumbUrl}}"><span class="play"><span class="button"></span></span></a></div></div>
-                <div style="clear: both;"></div>
-                <h2 class="jqmaintitle">
-                    <a href="{{post.url}}" title="{{post.title}}">
-                        {{post.title}}
-                    </a>
-                </h2>
-            </div>
-        </div>
-        {% endfor %} 
+  <div class="widget Blog" id="Blog1">
+    <!-- google_ad_section_start(name=default) -->
+    {% for post in paginator.posts %}
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 row-video-thm">
+      <div class="post hentry thumbnail">
+        <div id="summary2751505168638470704"><div class="play-link"><a href="{{post.url}}"><img class="img-responsive" src="{{post.thumbUrl}}"><span class="play"><span class="button"></span></span></a></div></div>
+        <div style="clear: both;"></div>
+        <h2 class="jqmaintitle">
+          <a href="{{post.url}}" title="{{post.title}}">
+            {{post.title}}
+          </a>
+        </h2>
+      </div>
     </div>
-    <nav id="pagenavi">
-    {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" class="prev">Prev</a>
-    {% endif %}
-    {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next</a>
-    {% endif %}
-</nav>
+    {% endfor %}
+    <nav id="pagenavi" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="blog-pager" id="blog-pager">
+        {% if paginator.previous_page %}
+        <span id="blog-pager-prev-link">
+          <a class="blog-pager-prev-link btn btn-danger" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" id="Blog1_blog-pager-prev-link" title="Newer Posts">
+            Prev
+          </a>
+        </span>
+        {% endif %}
+        {% if paginator.next_page %}
+        <span id="blog-pager-next-link">
+          <a class="blog-pager-next-link btn btn-danger" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" id="Blog1_blog-pager-next-link" title="Next Posts">
+            Next
+          </a>
+        </span>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
 </div>
 <!-- END Loop -->
