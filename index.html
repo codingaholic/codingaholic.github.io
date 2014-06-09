@@ -6,17 +6,7 @@ layout: default
   <div class="widget Blog" id="Blog1">
     <!-- google_ad_section_start(name=default) -->
     {% for post in paginator.posts %}
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 row-video-thm">
-      <div class="post hentry thumbnail">
-        <div id="summary2751505168638470704"><div class="play-link"><a href="{{post.url}}"><img class="img-responsive" src="{{post.thumbUrl}}"><span class="play"><span class="button"></span></span></a></div></div>
-        <div style="clear: both;"></div>
-        <h2 class="jqmaintitle">
-          <a href="{{post.url}}" title="{{post.title}}">
-            {{post.title}}
-          </a>
-        </h2>
-      </div>
-    </div>
+    {% include article-summary.html url=post.url thumbUrl=post.thumbUrl title=post.title %} 
     {% endfor %}
     <nav id="pagenavi" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="blog-pager" id="blog-pager">
