@@ -3,16 +3,16 @@
   <channel>
     <title>Codingaholic</title>
     <description></description>
-    <link>http://codingaholic.com/</link>
-    <atom:link href="http://codingaholic.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Your Personal Brand - Blogging While Brown 2012 Tech Keynote</title>
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/your-personal-brand-blogging-while-brown</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/your-personal-brand-blogging-while-brown</guid>
+        <link>/2014/06/04/your-personal-brand-blogging-while-brown</link>
+        <guid isPermaLink="true">/2014/06/04/your-personal-brand-blogging-while-brown</guid>
       </item>
     
       <item>
@@ -20,8 +20,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</guid>
+        <link>/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</link>
+        <guid isPermaLink="true">/2014/06/04/Zach-Holman---How-Github-%2528No-Longer%2529-Works</guid>
       </item>
     
       <item>
@@ -29,8 +29,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Using-ASPNET-SignalR-in-anger</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Using-ASPNET-SignalR-in-anger</guid>
+        <link>/2014/06/04/Using-ASPNET-SignalR-in-anger</link>
+        <guid isPermaLink="true">/2014/06/04/Using-ASPNET-SignalR-in-anger</guid>
       </item>
     
       <item>
@@ -38,8 +38,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Richard-Schneeman---Millions-of-Apps%253A-What-we%2527ve-Learned</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Richard-Schneeman---Millions-of-Apps%253A-What-we%2527ve-Learned</guid>
+        <link>/2014/06/04/Richard-Schneeman---Millions-of-Apps%253A-What-we%2527ve-Learned</link>
+        <guid isPermaLink="true">/2014/06/04/Richard-Schneeman---Millions-of-Apps%253A-What-we%2527ve-Learned</guid>
       </item>
     
       <item>
@@ -47,8 +47,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</guid>
+        <link>/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</link>
+        <guid isPermaLink="true">/2014/06/04/Paul-Irish-%253A-10-Things-I-Learned-from-the-jQuery-Source</guid>
       </item>
     
       <item>
@@ -56,8 +56,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</guid>
+        <link>/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</link>
+        <guid isPermaLink="true">/2014/06/04/Konstantin-Haase---Sinatra-in-SIX-lines---How-to-do-crazy-stuff-with-Ruby</guid>
       </item>
     
       <item>
@@ -65,8 +65,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/HTTP-caching-for-ponies-and-unicorns</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/HTTP-caching-for-ponies-and-unicorns</guid>
+        <link>/2014/06/04/HTTP-caching-for-ponies-and-unicorns</link>
+        <guid isPermaLink="true">/2014/06/04/HTTP-caching-for-ponies-and-unicorns</guid>
       </item>
     
       <item>
@@ -74,8 +74,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</guid>
+        <link>/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</link>
+        <guid isPermaLink="true">/2014/06/04/Corey-Haines---RubyConf-AU-2013-Opening-Keynote</guid>
       </item>
     
       <item>
@@ -83,8 +83,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</guid>
+        <link>/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</link>
+        <guid isPermaLink="true">/2014/06/04/Benjamin-Smith---How-I-Architected-My-Big-Rails-App-For-Success</guid>
       </item>
     
       <item>
@@ -92,8 +92,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://codingaholic.com/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</link>
-        <guid isPermaLink="true">http://codingaholic.com/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</guid>
+        <link>/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</link>
+        <guid isPermaLink="true">/2014/06/04/Ben-Turner---Ansible---Your-First-Step-Into-Server-Provisioning</guid>
       </item>
     
   </channel>
