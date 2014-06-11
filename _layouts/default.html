@@ -5,46 +5,45 @@
 
 <body>
 
-{% include header.html %}
+  {% include header.html %}
 
-<div class="container">
+  <div class="container" id="container">
     <div class="row-content">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 main-post-div">
-            {{content}} 
-        </div>
-        <!-- END Content -->
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="sidebox">
-                <div class="sidebar section" id="sidebar">
-                    <div class="widget HTML" id="HTML1">
-                        <h2 class="title">
-                            Categories
-                        </h2>
-                        <div class="widget-content">
-                            <ul class="hierarchy">
-                                {% for cat in site.categories | sort %}
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 main-post-div">
+        {{content}} 
+      </div>
+      <!-- END Content -->
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="sidebox">
+          <div class="sidebar section" id="sidebar">
+            <div class="widget HTML" id="HTML1">
+              <h2 class="title">
+                Categories
+              </h2>
+              <div class="widget-content">
+                <ul class="hierarchy">
+                  {% for cat in site.categories | sort %}
 
-                                {% endfor %}
-                                {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-                                {% assign categories_words = site_categories | split:',' | sort %}
-                                {% for item in (0..site.categories.size) %}{% unless forloop.last %}
-                                {% capture this_word %}{{ categories_words[item] | strip_newlines }}{% endcapture %}
-                                <li><a href="{{ this_word | cgi_escape }}">{{ this_word }}</a>
-                                <span class="post-count" dir="ltr">
-                                    (
-                                    {{ site.categories[this_word].size }}
-                                    )
-                                </span>
-                                </li>
-                                {% endunless %}{% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                  {% endfor %}
+                  {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+                  {% assign categories_words = site_categories | split:',' | sort %}
+                  {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+                  {% capture this_word %}{{ categories_words[item] | strip_newlines }}{% endcapture %}
+                  <li>
+                    <a href="{{ this_word | cgi_escape }}">{{ this_word }}</a>
+                    <span class="post-count" dir="ltr">
+                      ({{ site.categories[this_word].size }})
+                    </span>
+                  </li>
+                  {% endunless %}{% endfor %}
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 
 {% include footer.html %}
 
