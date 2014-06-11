@@ -10,3 +10,6 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title
 
 paginate: 12
+
+#analytics
+google_analytics_tracking_id: UA-51592308-1 
