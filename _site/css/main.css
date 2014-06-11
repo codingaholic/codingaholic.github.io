@@ -3607,7 +3607,7 @@ table {
         height: 60px;
         position: absolute;
         left: 38%;
-        top: 32% !important;
+        top: 35% !important;
         background-repeat: no-repeat;
         background-position: 0 0;
         background-image: url(http://2.bp.blogspot.com/-yRnsuVEqfiQ/UuzZw9oAf0I/AAAAAAAAAL8/vX1SB-U7iqE/s1600/Video_Play_Btn.png);
@@ -3682,4 +3682,10 @@ table {
 
 .post-list-summary i {
     margin: 8px;
+}
+
+@media (min-width: 992px) {
+    .post-list-summary span {
+        display:block;
+    }
 }
