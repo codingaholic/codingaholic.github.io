@@ -1365,7 +1365,7 @@ table {
         .col-sm-offset-0 {
             margin-left: 0%;
         }
-        .post .play-link .play .button{left: 42%;top: 29% !important;}
+        .post .play-link .play .button{left: 42%;top: 32% !important;}
     }
     @media (min-width: 992px) {
         .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -3607,7 +3607,7 @@ table {
         height: 60px;
         position: absolute;
         left: 38%;
-        top: 23% !important;
+        top: 32% !important;
         background-repeat: no-repeat;
         background-position: 0 0;
         background-image: url(http://2.bp.blogspot.com/-yRnsuVEqfiQ/UuzZw9oAf0I/AAAAAAAAAL8/vX1SB-U7iqE/s1600/Video_Play_Btn.png);
