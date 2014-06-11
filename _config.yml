@@ -3,8 +3,7 @@ name: codingaholic
 title: Codingaholic
 email: codingaholic@gmail.com
 description: ""
-baseurl: ""
-url: "http://codingaholic.com"
+baseurl: "http://codingaholic.com/"
 
 # Build settings
 markdown: kramdown
