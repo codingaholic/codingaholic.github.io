@@ -6,7 +6,7 @@ layout: default
   <div class="widget Blog" id="Blog1">
     <!-- google_ad_section_start(name=default) -->
     {% for post in paginator.posts %}
-    {% include article-summary.html url=post.url thumbUrl=post.thumbUrl title=post.title date=post.date %} 
+    {% include article-summary.html url=post.url thumbUrl=post.thumbUrl title=post.title date=post.date category=post.categories %} 
     {% endfor %}
     <nav id="pagenavi" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="blog-pager" id="blog-pager">
