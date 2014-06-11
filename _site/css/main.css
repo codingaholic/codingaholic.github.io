@@ -3671,3 +3671,15 @@ table {
         padding: 4px 0;
     }
 
+.post-list-summary {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+    color: #4B4B4A;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.post-list-summary i {
+    margin: 8px;
+}
