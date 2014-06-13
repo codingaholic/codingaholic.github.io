@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% include page_header.html title=page.category %}
 <ul>
     {% for post in site.categories[page.category] %}
     {% include article-summary.html url=post.url thumbUrl=post.thumbUrl title=post.title date=post.date category=post.categories %} 

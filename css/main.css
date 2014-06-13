@@ -3671,21 +3671,42 @@ table {
         padding: 4px 0;
     }
 
-.post-list-summary {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: -1px;
-    color: #4B4B4A;
-    margin: 10px;
-    font-weight: bold;
-}
-
-.post-list-summary i {
-    margin: 8px;
-}
-
-@media (min-width: 992px) {
-    .post-list-summary span {
-        display:block;
+    .post-list-summary {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: -1px;
+        color: #4B4B4A;
+        margin: 10px;
+        font-weight: bold;
     }
-}
+
+    .post-list-summary i {
+        margin: 8px;
+    }
+
+    @media (min-width: 992px) {
+        .post-list-summary span {
+            display:block;
+        }
+    }
+
+    .page-head {
+        padding: 5px; */
+        border: 1px solid #666;
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 2px 0 #d0d0d0;
+        border: 1px solid #ddd;
+        color: #222222;
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 6px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .page-head h1 {
+        margin: 5px 0;
+        font-size: 18px;
+        color: #444;
+    }
