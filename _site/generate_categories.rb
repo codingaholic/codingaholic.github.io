@@ -1,3 +1,5 @@
+require 'fileutils'
+
 files = Dir["_posts/*"]
 
 categories = Array.new
@@ -12,11 +14,16 @@ for file in files do
     end
 end
 
+FileUtils.rm_rf('categories')
+Dir.mkdir("categories") unless File.exists?("categories")
+
 for category in categories do
     begin
         category = category.strip
-        Dir.mkdir category
-        out_file = File.new(category + "/index.markdown", "w")
+
+        Dir.mkdir("categories/" + category) unless File.exists?("categories/" + category)
+        
+        out_file = File.new("categories/" + category + "/index.markdown", "w")
 
 
         out_file.puts("---")

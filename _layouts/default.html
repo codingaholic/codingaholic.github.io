@@ -29,7 +29,7 @@
                   {% assign categories_words = site_categories | split:',' | sort %}
                   {% for item in (0..site.categories.size) %}{% unless forloop.last %}
                   {% capture this_word %}{{ categories_words[item] | strip_newlines }}{% endcapture %}
-                  <li><a href="/{{ site.baseurl }}{{ this_word | cgi_escape }}">{{ this_word }}</a>
+                  <li><a href="/{{ site.baseurl }}categories/{{ this_word | cgi_escape }}">{{ this_word }}</a>
                     <span class="post-count" dir="ltr">
                       (
                       {{ site.categories[this_word].size }}
